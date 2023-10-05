@@ -26,21 +26,13 @@ header {
     position: absolute;
 }
 
-@media screen and (max-width: 840px) {
-
-    #logo {
-        position: relative;
-        margin-left: 35%;
-    }
-    
-}
-
 #logo-title {
     font-size: 100px;
     text-align: center;
     margin: 0%;
     font-family: Pixelify Sans;
 }
+
 
 
 /* NAVIGATION */
@@ -151,4 +143,20 @@ h2 {
 .about-text p {
     margin: 0;
 
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 840px) {
+
+    #logo {
+        position: relative;
+        margin-left: 35%;
+    }
+
+    #logo-title {
+        font-size: 60px;
+    }
+    
+    
 }
