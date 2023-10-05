@@ -1,0 +1,154 @@
+/* CHARMANDER STYLESHEET */
+
+/* Imported font */
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+
+.outer-container {
+    border: 3px solid black;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+header {
+    background-color: lightskyblue;
+    position: relative;
+    overflow: hidden;
+}
+
+#logo {
+    max-width: 100px;
+    height: auto;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+}
+
+@media screen and (max-width: 840px) {
+
+    #logo {
+        position: relative;
+        margin-left: 35%;
+    }
+    
+}
+
+#logo-title {
+    font-size: 100px;
+    text-align: center;
+    margin: 0%;
+    font-family: Pixelify Sans;
+}
+
+
+/* NAVIGATION */
+
+nav {
+    text-align: center;
+    background-color: rgb(177, 225, 255);
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    font-family: Pixelify Sans;
+    padding-right: 60px;
+    font-size: 30px;
+}
+
+nav ul li:hover {
+    color: darksalmon;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:visited {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+
+/* INTRO AREA */
+
+.intro-container {
+    background-color: rgb(255, 171, 107);
+    overflow: auto;
+}
+
+.image-container {
+    max-width: 600px;
+    margin: 0;
+    float:left;
+    padding: 3%;
+    box-sizing: border-box;
+}
+
+.intro-image {
+    max-width: 90%;
+    height: auto;
+    border-radius: 50%;
+    border: 6px solid black;
+    box-sizing: border-box;
+}
+
+.intro-text {
+    float: left;
+    max-width: 600px;
+    margin: 0;
+    padding: 3%;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: lightskyblue;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+}
+
+
+/* GALLERY */
+
+.gallery-container {
+    background-color: rgb(255, 171, 107);
+    overflow: auto;
+}
+
+.gallery-image {
+    width: 25%;
+    height: 200px;
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+    outline: 5px solid black;
+    outline-offset: -10px;
+}
+
+
+
+/* ABOUT */
+
+.about-container {
+    background-color: rgb(255, 171, 107);
+    padding: 20px;
+}
+
+h2 {
+    margin: 0;
+}
+
+.about-text p {
+    margin: 0;
+
+}
